@@ -47,14 +47,14 @@ public class MinesweeperPanel extends JPanel{
 	public void updateTileIcon(JLabel tileLabel, int x, int y){
 		if(tileMap[x][y].hidden){
 			if(tileMap[x][y].isFlagged){
-				tileLabel.setIcon(new ImageIcon("squares/square_Flagged.png"));
+				tileLabel.setIcon(new ImageIcon("tileImages/square_Flagged.png"));
 			}
 			else{
-				tileLabel.setIcon(new ImageIcon("squares/square_Covered.png"));
+				tileLabel.setIcon(new ImageIcon("tileImages/square_Covered.png"));
 			}
 		}
 		else{
-			tileLabel.setIcon(new ImageIcon("squares/square_"+frame.model.returnType(x,y)+".png"));
+			tileLabel.setIcon(new ImageIcon("tileImages/square_"+frame.model.returnType(x,y)+".png"));
 		}
 	}
 
