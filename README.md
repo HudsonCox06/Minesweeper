@@ -24,4 +24,4 @@ This project demonstrates event-driven programming, GUI design, and basic game l
    _javac *.java_
 3. Run the Game
    _java Minesweeper_
-Requirments: _Java 8+_
+
