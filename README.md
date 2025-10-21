@@ -25,6 +25,10 @@ This project demonstrates event-driven programming, GUI design, and basic game l
 3. Run the Game
    _java Minesweeper_
 
+![Minesweeper Gameplay Screenshot](./images/MinesweeperGameplay.png)
+
+![Minesweeper Game Over Screenshot](./images/MinesweeperGameOver.png)
+
 **Future Enhancements**
 - Add difficulty levels (Easy / Medium / Hard)
 - Add timer and mine counter display
