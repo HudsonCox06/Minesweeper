@@ -19,10 +19,15 @@ This project demonstrates event-driven programming, GUI design, and basic game l
 
 **How to Run**
 1. Clone this repository
+   
   _git clone https://github.com/HudsonCox06/Minesweeper.git_
+  
 2. Compile the project
+
    _javac *.java_
+   
 3. Run the Game
+   
    _java Minesweeper_
 
 ![Minesweeper Gameplay Screenshot](./images/MinesweeperGameplay.png)
